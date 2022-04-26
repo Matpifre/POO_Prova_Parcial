@@ -9,7 +9,7 @@ public class Main {
             escolha = Integer.parseInt(JOptionPane.showInputDialog(Menu()));
             if(escolha < 1 || escolha>6)
             {
-                JOptionPane.showMessageDialog(null, "Escolha inválida");
+                JOptionPane.showMessageDialog(null, "Escolha inválida"); // oiii
             }else
             {
                 switch(escolha)
