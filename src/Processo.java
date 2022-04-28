@@ -149,7 +149,6 @@ public class Processo {
     }
   
     private static int verificar(String aux) {
-      return 0;
       if(reservas.size() > 0){
 
         for(int i = 0; i < reservas.size(); i++) 
