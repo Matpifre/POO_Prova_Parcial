@@ -21,7 +21,7 @@ public class Reserva implements Pagamento {
 
         aux += "\nCliente: " + cliente.getNome(); 
 
-        if(getpagamentoAVista() == true){
+        if(getPagamentoAVista() == true){
             aux += "\n-> Pagamento: À vista";
         } else{
             aux += "\n-> Pagamento: Parcelado";
@@ -35,7 +35,7 @@ public class Reserva implements Pagamento {
         
         double valor = 3200.00;
 
-        if(pagamentoAVista == true){
+        if(PagamentoAVista == true){
             return valor * 0.9;
         } else{
             return valor;

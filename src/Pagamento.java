@@ -1,5 +1,5 @@
-public class Pagamento {
+public interface Pagamento {
 
-    public double calcularPagamento();
+   public double calcularPagamento();
     
 }
